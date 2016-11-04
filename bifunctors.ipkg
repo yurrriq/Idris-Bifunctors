@@ -1,19 +1,29 @@
 package bifunctors
 
-sourcedir = src
+modules    = Data.Bifunctor
+           , Data.Bifunctor.Apply
+           , Data.Biapplicative
+           , Data.Bimonad
+           , Data.Bifoldable
+           , Data.Bitraversable
+           , Data.Bifunctor.Biff
+           , Data.Bifunctor.Clown
+           , Data.Bifunctor.Flip
+           , Data.Bifunctor.Join
+           , Data.Bifunctor.Joker
+           , Data.Bifunctor.Tannen
+           , Data.Bifunctor.Wrapped
+           , Data.Verified.Bifunctor
+           , Data.Verified.Biapplicative
 
-modules = Data.Bifunctor
-        , Data.Bifunctor.Apply
-        , Data.Biapplicative
-        , Data.Bimonad
-        , Data.Bifoldable
-        , Data.Bitraversable
-        , Data.Bifunctor.Biff
-        , Data.Bifunctor.Clown
-        , Data.Bifunctor.Flip
-        , Data.Bifunctor.Join
-        , Data.Bifunctor.Joker
-        , Data.Bifunctor.Tannen
-        , Data.Bifunctor.Wrapped
-        , Data.Verified.Bifunctor
-        , Data.Verified.Biapplicative
+brief      = "A small bifunctor library for Idris."
+-- version    =
+readme     = README.md
+-- license    =
+author     = "JP Smith"
+
+homepage   = https://github.com/japesinator/Idris-Bifunctors
+sourceloc  = https://github.com/japesinator/Idris-Bifunctors
+bugtracker = https://github.com/japesinator/Idris-Bifunctors/issues
+
+sourcedir  = src
