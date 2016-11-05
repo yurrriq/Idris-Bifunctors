@@ -1,4 +1,4 @@
-module Main
+module Data.Bifoldable.Test
 
 import Data.Bifoldable
 
