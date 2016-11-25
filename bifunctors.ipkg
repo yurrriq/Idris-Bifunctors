@@ -1,5 +1,8 @@
 package bifunctors
 
+sourcedir  = src
+opts       = "--total"
+
 modules    = Data.Bifunctor
            , Data.Bifunctor.Apply
            , Data.Biapplicative
@@ -21,9 +24,8 @@ brief      = "A small bifunctor library for Idris."
 readme     = README.md
 -- license    =
 author     = "JP Smith"
+maintainer = "Eric Bailey"
 
-homepage   = https://github.com/japesinator/Idris-Bifunctors
-sourceloc  = https://github.com/japesinator/Idris-Bifunctors
-bugtracker = https://github.com/japesinator/Idris-Bifunctors/issues
-
-sourcedir  = src
+homepage   = https://github.com/yurrriq/idris-bifunctors
+sourceloc  = https://github.com/yurrriq/idris-bifunctors
+bugtracker = https://github.com/yurrriq/idris-bifunctors/issues

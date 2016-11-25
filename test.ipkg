@@ -2,13 +2,15 @@ package bifunctors.test
 
 -- Don't install this except as part of an automated test.
 
-sourcedir = test
+pkgs      = bifunctors
+          -- , test
 
-modules   = Data.Bifunctor.Test
-          -- , Data.Biapply.Test
-          , Data.Biapplicative.Test
-          , Data.Bimonad.Test
-          , Data.Bifoldable.Test
-          , Data.Bitraversable.Test
+sourcedir = src
+opts      = "--total"
 
-opts      = "-p bifunctors"
+modules   = Data.Test.Biapplicative
+          , Data.Test.Bifoldable
+          , Data.Test.Bifunctor
+          , Data.Test.Bifunctor.Apply
+          , Data.Test.Bimonad
+          , Data.Test.Bitraversable

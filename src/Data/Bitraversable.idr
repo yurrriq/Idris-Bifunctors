@@ -1,7 +1,7 @@
 module Data.Bitraversable
 
-import Data.Bifunctor
-import Data.Bifoldable
+import public Data.Bifunctor
+import public Data.Bifoldable
 import Control.Monad.Identity
 
 %access public export
