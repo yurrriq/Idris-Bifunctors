@@ -20,12 +20,12 @@ modules    = Data.Bifunctor
            , Data.Verified.Biapplicative
 
 brief      = "A small bifunctor library for Idris."
--- version    =
+-- TODO: version
 readme     = README.md
--- license    =
+-- FIXME: license
 author     = "JP Smith"
 maintainer = "Eric Bailey"
 
-homepage   = https://github.com/yurrriq/idris-bifunctors
+homepage   = https://github.com/japesinator/Idris-Bifunctors
 sourceloc  = https://github.com/yurrriq/idris-bifunctors
 bugtracker = https://github.com/yurrriq/idris-bifunctors/issues
